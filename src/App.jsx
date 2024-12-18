@@ -30,13 +30,12 @@ function App() {
                   <path d="M4 14l8 7L24 7"></path>
                 </svg>
               </span>
-              <div>
+            </label>
+          </div>
+          <div>
                 <h1 className="checkbox__textwrapper">{exercise[0]}</h1>
                 <p className='description'>Repetições: {exercise[1]}</p>
               </div>
-              
-            </label>
-          </div>
         </div>
       ))}
     </div>
